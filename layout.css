@@ -1,0 +1,152 @@
+body {
+	height: 100%;
+	width: 100%;
+}
+
+tr td {
+	font-weight: normal;
+	color: #000;
+}
+
+li {
+	color: #449933;
+	cursor: pointer;
+	padding: 2px;
+	margin-left: -2px;
+}
+
+li:hover {
+	color: #226611;
+	background-color: #eeffdd;
+	cursor: pointer;
+	padding: 2px;
+	margin-left: -2px;
+}
+
+table {
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+td {
+	font-size: 8pt;
+	vertical-align: top;
+	padding: 3px;
+	padding-top: 5px !important;
+	text-align: center;
+	border-right: 1px solid #ccc;
+}
+
+.datenav {
+	color: #449933;
+	cursor: pointer;
+	padding: 2px;
+	margin-left: -2px;
+}
+
+.datenav:hover {
+	color: #226611;
+	background-color: #eeffdd;
+	cursor: pointer;
+}
+
+.keyrow {
+	margin-bottom: 5px;
+	width: 300px;
+	clear: both;
+}
+
+.keyblock {
+	min-height: 20px;
+	min-width: 20px;
+	height: 20px;
+	width: 20px;
+	background-color: #999;
+	margin-right: 10px;
+	float: left;
+}
+
+#tufte_canvas {
+	margin-top: 50px;
+	width: 600px;
+	height: 200px;
+	float: left;
+}
+
+#tufte_label {
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 300px;
+	float: left;
+}
+
+#map_canvas {
+	min-height: 600px;
+	max-height: 600px;
+}
+
+#date_navigation span {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-weight: normal;
+}
+
+#closebutton {
+	text-align: right;
+	color: #060;
+}
+
+#closebutton:hover {
+	color: #393;
+}
+
+
+#tablelabels td {
+	font-weight: bold;
+	color: #333;
+	border-bottom: 1px dotted #ccc;
+}
+
+#outer {
+	height: 100%;
+	width: 100%;
+}
+
+#container {
+	position: absolute;
+	top: 0; 
+	right: 0; 
+	bottom: 0; 
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+
+#infoboxcontainer {
+	position: absolute;
+	position:fixed; 
+	top: 0; 
+	right: 0; 
+	bottom: 0; 
+	left: 0;
+	min-height: 100%;
+	min-width: 100%;
+	z-index: 10;
+	background-color: #000;
+	opacity: 0.5;
+}
+
+#infobox {
+	position:fixed; 
+	margin-left: 50px !important;
+	margin-top: 50px !important;
+	border: 1px solid #999;
+	min-height: 700px;
+	min-width: 970px;
+	background-color: #fff;
+	z-index: 20;
+	text-align: left;
+	padding: 20px;
+}

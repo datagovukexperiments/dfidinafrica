@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+ "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+		<title>Mapping DfID's Reach in Africa</title>
+
+		<link rel="stylesheet" href="reset-fonts-grids.css" type="text/css">
+		<link rel="stylesheet" href="layout.css" type="text/css">
+
+		<script type='text/javascript' src='http://www.google.com/jsapi'></script>
+		<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="jquery.template.js"></script>
+		<script type="text/javascript" src="jquery.tufte-graph.js"></script>
+		<script type="text/javascript" src="jquery.enumerable.js"></script>
+		<script type="text/javascript" src="raphael.js"></script>
+		<script type="text/javascript" src="dfidexplorer.js"></script>
+
+</head>
+<body>
+	<div id="outer">
+		<div id="doc4" class="yui-t2">
+			<div id="hd"><h1>Mapping DfID's Reach in Africa</h1></div>
+			<div id="bd">
+				<div id="yui-main">
+					<div class="yui-b"><div class="yui-g">
+						<h2 id="date_navigation">Select a date:</h2>
+						<div id="map_canvas"></div>
+					</div>
+					<div class="yui-gf">
+    					<div class="yui-u first">
+						
+	    				</div>
+    					<div class="yui-u">
+						
+	    				</div>
+					</div>
+				</div>
+			</div>
+			<div class="yui-b">
+				<h2>Africa</h2>
+				<div id="country_navigation">
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+   			google.load('visualization', '1', {'packages': ['geomap']});
+   			google.setOnLoadCallback(drawInitMap);	
+  	</script>
+</body>
+</html>
+
+		
+
